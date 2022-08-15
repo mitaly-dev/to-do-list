@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do Item</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div>
+        <h3 class="title">To Do List</h3>
+        <div class="input">
+          <input id="inputfield" type="text" placeholder="type" />
+          <button class="btn" id="send">Add Items</button>
+        </div>
+      </div>
+      <!-- table -->
+      <div class="table">
+        <table>
+          <thead>
+            <tr>
+              <th>Number</th>
+              <th>Description</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="list-container">
+            <!-- <tr>
+              <td>+</td>
+              <td>add</td>
+              <td>
+                <button class="btn" id="delete">Delete</button>
+                <button class="btn" id="done">Done</button>
+              </td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+      <button class="btn" id="clear">Clear All</button>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

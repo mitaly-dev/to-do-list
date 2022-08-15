@@ -1,0 +1,67 @@
+section {
+  padding: 30px 150px;
+  text-align: center;
+}
+#inputfield {
+  width: 83%;
+  padding: 10px 30px;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  outline: none;
+}
+#send {
+  width: 10%;
+  padding: 10px 10px;
+  background-color: red;
+  border-radius: 7px;
+}
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  color: darkblue;
+}
+table {
+  width: 100%;
+  margin-top: 5%;
+}
+tr {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 12px 0px;
+  font-size: 18px;
+}
+td,
+th {
+  text-align: center;
+  width: 33%;
+}
+thead tr {
+  border-bottom: 2px solid darkblue;
+  font-size: 19px;
+  color: darkblue;
+  padding-bottom: 30px;
+}
+.btn {
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  color: white;
+  border-radius: 5px;
+  font-size: 17px;
+}
+.delete {
+  background-color: red;
+}
+.done {
+  background-color: green;
+}
+#clear {
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px 30px;
+  background-color: red;
+  display: none;
+}
